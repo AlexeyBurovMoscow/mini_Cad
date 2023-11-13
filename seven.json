@@ -1,0 +1,155 @@
+{
+    "dev_description": [
+        {
+            "dev_coordinateX": "61",
+            "dev_coordinateY": "50",
+            "dev_id": "0",
+            "dev_line_owner": "0",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "234",
+            "dev_coordinateY": "45",
+            "dev_id": "1",
+            "dev_line_owner": "0",
+            "dev_model": "KDL",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "244",
+            "dev_coordinateY": "139",
+            "dev_id": "2",
+            "dev_line_owner": "1",
+            "dev_model": "DIP34",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "1",
+            "masterLine": "0",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "45",
+            "dev_coordinateY": "227",
+            "dev_id": "3",
+            "dev_line_owner": "1",
+            "dev_model": "S2000SMK",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "2",
+            "masterLine": "0",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "294",
+            "dev_coordinateY": "335",
+            "dev_id": "4",
+            "dev_line_owner": "1",
+            "dev_model": "S2000KT",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "3",
+            "masterLine": "0",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "421",
+            "dev_coordinateY": "50",
+            "dev_id": "5",
+            "dev_line_owner": "2",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "skud"
+        },
+        {
+            "dev_coordinateX": "330",
+            "dev_coordinateY": "124",
+            "dev_id": "6",
+            "dev_line_owner": "2",
+            "dev_model": "S2000K",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "5",
+            "masterLine": "none",
+            "subsystem": "skud"
+        },
+        {
+            "dev_coordinateX": "104",
+            "dev_coordinateY": "360",
+            "dev_id": "7",
+            "dev_line_owner": "3",
+            "dev_model": "Foton4",
+            "dev_removed": "true",
+            "dev_type": "sensor",
+            "dev_user_id": "0",
+            "masterLine": "2",
+            "subsystem": "skud"
+        },
+        {
+            "dev_coordinateX": "202",
+            "dev_coordinateY": "359",
+            "dev_id": "8",
+            "dev_line_owner": "3",
+            "dev_model": "Foton4",
+            "dev_removed": "true",
+            "dev_type": "sensor",
+            "dev_user_id": "0",
+            "masterLine": "2",
+            "subsystem": "skud"
+        }
+    ],
+    "line_description": [
+        {
+            "line_id": "0",
+            "line_points": "68,65;120,64;121,149;175,148;174,63;241,60;",
+            "line_removed": "false",
+            "line_user_id": "0",
+            "linerole": "rs485line",
+            "masterLine": "none",
+            "notifiers": "0,1",
+            "subsystem": "fire"
+        },
+        {
+            "line_id": "1",
+            "line_points": "241,60;251,146;250,232;52,234;51,345;301,342;",
+            "line_removed": "false",
+            "line_user_id": "1",
+            "linerole": "dualwire",
+            "masterLine": "0",
+            "notifiers": "1,2,3,4",
+            "subsystem": "fire"
+        },
+        {
+            "line_id": "2",
+            "line_points": "428,65;429,157;337,139;",
+            "line_removed": "false",
+            "line_user_id": "2",
+            "linerole": "rs485line",
+            "masterLine": "none",
+            "notifiers": "5,6",
+            "subsystem": "skud"
+        },
+        {
+            "line_id": "3",
+            "line_points": "337,139;338,178;283,178;284,239;363,238;364,363;209,366;111,367;",
+            "line_removed": "true",
+            "line_user_id": "3",
+            "linerole": "dualwire",
+            "masterLine": "2",
+            "notifiers": "6,8,7",
+            "subsystem": "skud"
+        }
+    ],
+    "scheme_path": "D:/QTProjects/CV_gui/plan_my.png"
+}

@@ -1,0 +1,87 @@
+{
+    "dev_description": [
+        {
+            "dev_coordinateX": "53",
+            "dev_coordinateY": "137",
+            "dev_id": "0",
+            "dev_line_owner": "0",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "269",
+            "dev_coordinateY": "40",
+            "dev_id": "1",
+            "dev_line_owner": "0",
+            "dev_model": "KDL",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "269",
+            "dev_coordinateY": "120",
+            "dev_id": "2",
+            "dev_line_owner": "1",
+            "dev_model": "DIP34",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "1",
+            "masterLine": "0",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "427",
+            "dev_coordinateY": "93",
+            "dev_id": "3",
+            "dev_line_owner": "1",
+            "dev_model": "DIP34",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "2",
+            "masterLine": "0",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "434",
+            "dev_coordinateY": "190",
+            "dev_id": "4",
+            "dev_line_owner": "1",
+            "dev_model": "IPR513_3A",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "3",
+            "masterLine": "0",
+            "subsystem": "fire"
+        }
+    ],
+    "line_description": [
+        {
+            "line_id": "0",
+            "line_points": "60,152;174,152;174,60;276,55;",
+            "line_removed": "false",
+            "line_user_id": "0",
+            "linerole": "rs485line",
+            "masterLine": "none",
+            "notifiers": "0,1",
+            "subsystem": "fire"
+        },
+        {
+            "line_id": "1",
+            "line_points": "276,55;276,127;277,163;415,163;434,100;441,197;",
+            "line_removed": "false",
+            "line_user_id": "1",
+            "linerole": "dualwire",
+            "masterLine": "0",
+            "notifiers": "1,2,3,4",
+            "subsystem": "fire"
+        }
+    ],
+    "scheme_path": "D:/QTProjects/CV_gui/plan_my.png"
+}

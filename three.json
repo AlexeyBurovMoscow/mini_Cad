@@ -1,0 +1,191 @@
+{
+    "dev_description": [
+        {
+            "dev_coordinateX": "55",
+            "dev_coordinateY": "221",
+            "dev_id": "0",
+            "dev_line_owner": "0",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "96",
+            "dev_coordinateY": "283",
+            "dev_id": "1",
+            "dev_line_owner": "3",
+            "dev_model": "KDL",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "168",
+            "dev_coordinateY": "298",
+            "dev_id": "2",
+            "dev_line_owner": "1",
+            "dev_model": "DIP34",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "0",
+            "masterLine": "0",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "283",
+            "dev_coordinateY": "296",
+            "dev_id": "3",
+            "dev_line_owner": "1",
+            "dev_model": "DIP34",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "0",
+            "masterLine": "0",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "342",
+            "dev_coordinateY": "220",
+            "dev_id": "4",
+            "dev_line_owner": "1",
+            "dev_model": "DIP34",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "0",
+            "masterLine": "0",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "100",
+            "dev_coordinateY": "68",
+            "dev_id": "5",
+            "dev_line_owner": "0",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "skud"
+        },
+        {
+            "dev_coordinateX": "220",
+            "dev_coordinateY": "76",
+            "dev_id": "6",
+            "dev_line_owner": "2",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "0",
+            "masterLine": "0",
+            "subsystem": "skud"
+        },
+        {
+            "dev_coordinateX": "343",
+            "dev_coordinateY": "80",
+            "dev_id": "7",
+            "dev_line_owner": "2",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "0",
+            "masterLine": "0",
+            "subsystem": "skud"
+        },
+        {
+            "dev_coordinateX": "428",
+            "dev_coordinateY": "77",
+            "dev_id": "8",
+            "dev_line_owner": "2",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "0",
+            "masterLine": "0",
+            "subsystem": "skud"
+        },
+        {
+            "dev_coordinateX": "436",
+            "dev_coordinateY": "210",
+            "dev_id": "9",
+            "dev_line_owner": "2",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "sensor",
+            "dev_user_id": "0",
+            "masterLine": "0",
+            "subsystem": "skud"
+        },
+        {
+            "dev_coordinateX": "200",
+            "dev_coordinateY": "113",
+            "dev_id": "0",
+            "dev_line_owner": "3",
+            "dev_model": "S2000",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "fire"
+        },
+        {
+            "dev_coordinateX": "274",
+            "dev_coordinateY": "124",
+            "dev_id": "1",
+            "dev_line_owner": "3",
+            "dev_model": "KDL",
+            "dev_removed": "false",
+            "dev_type": "controller",
+            "dev_user_id": "0",
+            "masterLine": "none",
+            "subsystem": "fire"
+        }
+    ],
+    "line_description": [
+        {
+            "line_id": "0",
+            "line_points": "62,236;63,299;103,298;",
+            "line_removed": "false",
+            "line_user_id": "0",
+            "linerole": "magistral",
+            "masterLine": "none",
+            "notifiers": "0,1",
+            "subsystem": "fire"
+        },
+        {
+            "line_id": "1",
+            "line_points": "103,298;175,305;290,303;352,304;349,227;",
+            "line_removed": "false",
+            "line_user_id": "1",
+            "linerole": "beam",
+            "masterLine": "0",
+            "notifiers": "1,2,3,4",
+            "subsystem": "fire"
+        },
+        {
+            "line_id": "2",
+            "line_points": "107,83;227,83;350,87;435,84;443,217;",
+            "line_removed": "false",
+            "line_user_id": "2",
+            "linerole": "beam",
+            "masterLine": "0",
+            "notifiers": "5,6,7,8,9",
+            "subsystem": "skud"
+        },
+        {
+            "line_id": "3",
+            "line_points": "204,131;281,139;103,298;",
+            "line_removed": "false",
+            "line_user_id": "0",
+            "linerole": "magistral",
+            "masterLine": "none",
+            "notifiers": "0,1,1",
+            "subsystem": "fire"
+        }
+    ],
+    "scheme_path": "D:/QTProjects/CV_gui/plan_my.png"
+}
